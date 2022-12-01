@@ -1,0 +1,238 @@
+CRITICAL - 2022-09-16 09:15:20 --> Class "App\Models\Model" not found
+in APPPATH\Models\Provincia.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Provincia.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Provincia')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Provincia')
+ 5 SYSTEMPATH\Config\Factories.php(152): class_exists('App\\Models\\Provincia')
+ 6 SYSTEMPATH\Config\Factories.php(122): CodeIgniter\Config\Factories::locateClass([...], 'Provincia')
+ 7 SYSTEMPATH\Config\Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 SYSTEMPATH\Common.php(811): CodeIgniter\Config\Factories::models('Provincia', [...], null)
+ 9 APPPATH\Controllers\Provincia.php(14): model('Provincia')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 09:16:29 --> Class "App\Models\BaseModel" not found
+in APPPATH\Models\Provincia.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Provincia.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Provincia')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Provincia')
+ 5 SYSTEMPATH\Config\Factories.php(152): class_exists('App\\Models\\Provincia')
+ 6 SYSTEMPATH\Config\Factories.php(122): CodeIgniter\Config\Factories::locateClass([...], 'Provincia')
+ 7 SYSTEMPATH\Config\Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 SYSTEMPATH\Common.php(811): CodeIgniter\Config\Factories::models('Provincia', [...], null)
+ 9 APPPATH\Controllers\Provincia.php(14): model('Provincia')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 09:16:41 --> Error connecting to the database: Unknown database 'webprovincia'
+CRITICAL - 2022-09-16 09:16:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'webprovincia'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `PROVINCIA`
+ORDER BY `NOMBRE` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Provincia.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 09:17:47 --> Unknown column 'NOMBRE' in 'order clause'
+CRITICAL - 2022-09-16 09:17:47 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Provincia.php(16): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 09:18:09 --> Unknown column 'NOMBRE' in 'order clause'
+CRITICAL - 2022-09-16 09:18:09 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Provincia.php(16): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-16 09:21:10 --> Unknown column 'NOMBRE' in 'order clause'
+CRITICAL - 2022-09-16 09:21:10 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Provincia.php(16): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:19:01 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(30): redirect('Provincias-list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:19:38 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(30): redirect('http://localhost/Programas/WebProvincia/public/Provincias-list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:19:51 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(30): redirect('/Provincias-list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:20:54 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(30): redirect('Provincia-list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:21:00 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(30): redirect('Provincia-list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:22:07 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(30): redirect('Provincia-list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:38:17 --> Undefined variable $pov
+in APPPATH\Views\provincia\list.php on line 29.
+ 1 APPPATH\Views\provincia\list.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pov', 'APPPATH\\Views\\provincia\\list.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\provincia\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('provincia/list', [], true)
+ 5 APPPATH\Controllers\Provincia.php(17): view('provincia/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:38:40 --> Undefined variable $pov
+in APPPATH\Views\provincia\list.php on line 29.
+ 1 APPPATH\Views\provincia\list.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pov', 'APPPATH\\Views\\provincia\\list.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\provincia\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('provincia/list', [], true)
+ 5 APPPATH\Controllers\Provincia.php(17): view('provincia/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:45:08 --> Invalid file: provincia-edition.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('provincia-edition.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('provincia-edition', [], true)
+ 3 APPPATH\Controllers\Provincia.php(55): view('provincia-edition', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->edition()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 10:57:55 --> Undefined variable $provincia
+in APPPATH\Controllers\Provincia.php on line 41.
+ 1 APPPATH\Controllers\Provincia.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provincia', 'APPPATH\\Controllers\\Provincia.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 11:03:34 --> Undefined variable $provincia
+in APPPATH\Controllers\Provincia.php on line 41.
+ 1 APPPATH\Controllers\Provincia.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provincia', 'APPPATH\\Controllers\\Provincia.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 11:03:50 --> Undefined variable $provincia
+in APPPATH\Controllers\Provincia.php on line 41.
+ 1 APPPATH\Controllers\Provincia.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provincia', 'APPPATH\\Controllers\\Provincia.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 11:03:57 --> Undefined variable $provincia
+in APPPATH\Controllers\Provincia.php on line 41.
+ 1 APPPATH\Controllers\Provincia.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provincia', 'APPPATH\\Controllers\\Provincia.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 11:05:14 --> Undefined array key "ID"
+in APPPATH\Controllers\Provincia.php on line 41.
+ 1 APPPATH\Controllers\Provincia.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'APPPATH\\Controllers\\Provincia.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 11:10:22 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(68): redirect('provincia/list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 11:12:05 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Provincia.php(68): redirect('provincia/list')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 16:25:45 --> Undefined array key "IMAGE"
+in APPPATH\Controllers\Provincia.php on line 42.
+ 1 APPPATH\Controllers\Provincia.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IMAGE"', 'APPPATH\\Controllers\\Provincia.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 16:26:34 --> Undefined array key "IMAGE"
+in APPPATH\Controllers\Provincia.php on line 42.
+ 1 APPPATH\Controllers\Provincia.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IMAGE"', 'APPPATH\\Controllers\\Provincia.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 16:27:44 --> Undefined array key "IMAGE"
+in APPPATH\Controllers\Provincia.php on line 42.
+ 1 APPPATH\Controllers\Provincia.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IMAGE"', 'APPPATH\\Controllers\\Provincia.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 16:29:31 --> Undefined array key "IMAGE"
+in APPPATH\Controllers\Provincia.php on line 42.
+ 1 APPPATH\Controllers\Provincia.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IMAGE"', 'APPPATH\\Controllers\\Provincia.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

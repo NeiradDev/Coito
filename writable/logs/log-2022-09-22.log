@@ -1,0 +1,242 @@
+CRITICAL - 2022-09-22 13:42:05 --> Path cannot be empty
+in APPPATH\Controllers\Provincia.php on line 42.
+ 1 APPPATH\Controllers\Provincia.php(42): fopen('ROOTPATH\\public', 'r')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 13:42:39 --> Undefined array key "IMAGE"
+in APPPATH\Controllers\Provincia.php on line 41.
+ 1 APPPATH\Controllers\Provincia.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IMAGE"', 'APPPATH\\Controllers\\Provincia.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:35:09 --> Invalid file: inicio.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:36:29 --> Invalid file: inicio.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:37:10 --> Invalid file: inicio.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:39:01 --> Invalid file: Front/layout/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/layout/header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Front/layout/header', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(21): CodeIgniter\View\View->include('Front/layout/header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('provincia/list', [], true)
+ 8 APPPATH\Controllers\Provincia.php(17): view('provincia/list', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:39:26 --> Invalid file: Front/layout/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/layout/header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Front/layout/header', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(21): CodeIgniter\View\View->include('Front/layout/header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('provincia/list', [], true)
+ 8 APPPATH\Controllers\Provincia.php(17): view('provincia/list', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:39:27 --> Invalid file: Front/layout/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/layout/header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Front/layout/header', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(21): CodeIgniter\View\View->include('Front/layout/header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('provincia/list', [], true)
+ 8 APPPATH\Controllers\Provincia.php(17): view('provincia/list', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Provincia->list()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provincia))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:39:28 --> Invalid file: inicio.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:39:34 --> Invalid file: inicio.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:40:33 --> Invalid file: inicio.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:03:43 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:04:06 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:04:06 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:04:52 --> Invalid file: welcome-message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome-message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome-message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome-message')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:04:52 --> Invalid file: welcome-message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome-message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome-message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome-message')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:06:00 --> Invalid file: welcome-message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome-message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome-message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome-message')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:07:18 --> Invalid file: welcome-message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome-message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome-message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome-message')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:07:25 --> Invalid file: welcome-message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome-message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome-message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome-message')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 16:24:00 --> Undefined array key "img1.jpg"
+in SYSTEMPATH\Config\Services.php on line 332.
+ 1 SYSTEMPATH\Config\Services.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img1.jpg"', 'SYSTEMPATH\\Config\\Services.php', 332)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::image('img1.jpg', Object(Config\Images), false)
+ 3 SYSTEMPATH\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 4 SYSTEMPATH\Config\Services.php(327): CodeIgniter\Config\BaseService::getSharedInstance('image', 'img1.jpg', null)
+ 5 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::image('img1.jpg')
+ 6 APPPATH\Views\Front\layout\footer.php(17): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\layout\\footer.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Front/layout/footer', null, true)
+10 APPPATH\Views\Front\layout\main.php(23): CodeIgniter\View\View->include('Front/layout/footer')
+11 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\layout\\main.php')
+12 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Front/layout/main', [], true)
+14 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+15 APPPATH\Controllers\Home.php(9): view('welcome_message')
+16 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+17 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+18 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 16:24:16 --> Undefined constant "img1"
+in APPPATH\Views\Front\layout\footer.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Front/layout/footer', null, true)
+ 4 APPPATH\Views\Front\layout\main.php(23): CodeIgniter\View\View->include('Front/layout/footer')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\layout\\main.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('welcome_message')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 16:24:18 --> Undefined constant "img1"
+in APPPATH\Views\Front\layout\footer.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Front/layout/footer', null, true)
+ 4 APPPATH\Views\Front\layout\main.php(23): CodeIgniter\View\View->include('Front/layout/footer')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\layout\\main.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('welcome_message')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 16:28:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\Front\css\style.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-22 16:33:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\Front\css\style.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-22 18:49:05 --> Cannot redeclare App\Controllers\Provincia::list1()
+in APPPATH\Controllers\Provincia.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
